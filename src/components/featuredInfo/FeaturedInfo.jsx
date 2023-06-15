@@ -8,10 +8,10 @@ const FeaturedInfo = () => {
       <div className="featuredItem">
         <span className="featuredTitle">Revanue</span>
         <div className="featuredMoneyCotainer">
-          <span className="featuredMoney">$2.314</span>
+          <span className="featuredMoney">$2.314 </span>
           <span className="featuredMoneyRate">
             -12.4
-            <ArrowDownward />
+            <ArrowDownward className="featuredIcon negative" />
           </span>
         </div>
         <span className="featureSub">Compate to the last month</span>
@@ -19,12 +19,12 @@ const FeaturedInfo = () => {
 
       {/* ============Item ================ */}
       <div className="featuredItem">
-        <span className="featuredTitle">Cost</span>
+        <span className="featuredTitle">Sale</span>
         <div className="featuredMoneyCotainer">
-          <span className="featuredMoney">$4.314</span>
+          <span className="featuredMoney">$4.314 </span>
           <span className="featuredMoneyRate">
             -1.4
-            <ArrowDownward />
+            <ArrowDownward className="featuredIcon negative" />
           </span>
         </div>
         <span className="featureSub">Compate to the last month</span>
@@ -34,10 +34,10 @@ const FeaturedInfo = () => {
       <div className="featuredItem">
         <span className="featuredTitle">Cost</span>
         <div className="featuredMoneyCotainer">
-          <span className="featuredMoney">$2.351</span>
+          <span className="featuredMoney">$2.351 </span>
           <span className="featuredMoneyRate">
             +1.4
-            <ArrowUpward />
+            <ArrowUpward className="featuredIcon" />
           </span>
         </div>
         <span className="featureSub">Compate to the last month</span>

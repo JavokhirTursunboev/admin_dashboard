@@ -2,11 +2,20 @@ import React from "react";
 import Chart from "../components/chart/Chart";
 import FeaturedInfo from "../components/featuredInfo/FeaturedInfo";
 import "./home.css";
+import { userData } from "../dummyData";
 const Home = () => {
   return (
     <div className="home">
       <FeaturedInfo />
-      <Chart />
+      <Chart
+        data={userData}
+        title="User Analytics"
+        grid
+        dataKey="Active User"
+      />
+
+      {/* Home widgetn */}
+      <div className="homeWidgets"></div>
     </div>
   );
 };

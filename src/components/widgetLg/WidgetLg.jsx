@@ -2,7 +2,7 @@ import React from "react";
 import "./widgetLg.css";
 const WidgetLg = () => {
   const Button = ({ type }) => {
-    return <button className={"widgetLgButton" + type}>{type}</button>;
+    return <button className={"widgetLgButton " + type}>{type}</button>;
   };
   return (
     <div className="widgetLg">
@@ -19,6 +19,7 @@ const WidgetLg = () => {
               <img
                 src="https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
+                className="widgetLgImg"
               />
               <span className="widgetLgName">Susan Carol</span>
             </td>
@@ -34,6 +35,7 @@ const WidgetLg = () => {
               <img
                 src="https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
+                className="widgetLgImg"
               />
               <span className="widgetLgName">Susan Carol</span>
             </td>
@@ -49,6 +51,7 @@ const WidgetLg = () => {
               <img
                 src="https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
+                className="widgetLgImg"
               />
               <span className="widgetLgName">Susan Carol</span>
             </td>
@@ -64,6 +67,7 @@ const WidgetLg = () => {
               <img
                 src="https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
+                className="widgetLgImg"
               />
               <span className="widgetLgName">Susan Carol</span>
             </td>
